@@ -1,3 +1,5 @@
+// code link: https://github.com/nrd141913/assignment
+
 // problemSolve-1
 
 function kilometerToMeter(kilometer) {
@@ -87,7 +89,6 @@ function megaFriend(names) {
 
     for (var i = 0; i < names.length; i++) {
 
-        names[i] = names[i].trim();
 
         if (Math.max(names[i]) == "") {
             return "Please remove all empty strings from your array and try again";
@@ -102,6 +103,6 @@ function megaFriend(names) {
     return biggerName;
 }
 
-var arrayNames = ["naim", "durjoy", "naima", "shoshe", "naimur", "junaed"];
+var arrayNames = ["naim", "durjoy", "naima", "shoshe", "naimur"];
 var result = megaFriend(arrayNames);
 console.log(result);
